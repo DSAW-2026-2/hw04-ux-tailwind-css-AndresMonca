@@ -1,0 +1,31 @@
+{
+  "name": "HW04 — UX + Tailwind CSS",
+  "homeworkNumber": 4,
+  "structure": {
+    "maxPoints": 20,
+    "requiredFiles": [
+      { "path": "index.html", "description": "Landing page rebuilt with Tailwind CSS", "points": 10 },
+      { "path": "figma-link.txt", "description": "Link to complete Figma wireframes for all project screens", "points": 10 }
+    ],
+    "requiredFolders": []
+  },
+  "quality": {
+    "maxPoints": 20,
+    "checks": ["htmlhint"]
+  },
+  "deployment": {
+    "maxPoints": 20,
+    "type": "github-pages"
+  },
+  "acceptance": {
+    "maxPoints": 40,
+    "sourcePaths": ["index.html", "figma-link.txt"],
+    "criteria": [
+      "index.html uses Tailwind CSS utility classes for ALL styling — no separate CSS file with custom rules (Tailwind CDN or Vite setup is acceptable)",
+      "The page implements a dark mode toggle that works using Tailwind's dark: variant — a button or toggle must switch between light and dark mode visibly",
+      "figma-link.txt contains a URL to a Figma file that shows wireframes for all main project screens (at least 3 distinct screens)",
+      "The Figma wireframes include at least 3 states for interactive elements: empty state, filled/active state, and error state",
+      "The Tailwind implementation is responsive and uses responsive prefixes (sm:, md:, lg:) rather than custom media queries"
+    ]
+  }
+}
