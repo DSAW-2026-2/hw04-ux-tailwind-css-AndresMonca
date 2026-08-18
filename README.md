@@ -1,5 +1,15 @@
 # HW04 — UX + Tailwind CSS
 
+## Student Information
+
+**Name:**  
+Edwin Andres Montaño Castañeda
+
+**GitHub Pages:**  
+https://dsaw-2026-2.github.io/hw04-ux-tailwind-css-AndresMonca/
+
+---
+
 **Week 4 · DSAW · Universidad de La Sabana**
 
 ## Objective
